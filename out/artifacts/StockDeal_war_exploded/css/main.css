@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.navbar-header > a {
+    height: 100%;
+    color: #000000;
+}
+
+.navbar-header > a > p {
+    font-family: "黑体";
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.header {
+    margin: 0px;
+}
+
+.content {
+    height: 91.7%;
+    margin: 0px;
+}
+
+.content-row-left {
+    /* background-color: #000000; */
+    height: 100%;
+}
+
+.content-row-right {
+    background-color: #F9F2F4;
+    height: 100%;
+    /* 定义了height话，如果页面高度超过100%时，背景色变为白色 */
+}
+
+.center {
+    width: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel-body {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.panel-body:hover:not(.nostyle) {
+    background-color: lightgray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mypanel {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.mytooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.mytooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 72%;
+    margin-top: -72%;
+    z-index: 1;
+}
+
+.mytooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#alert {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 500px;
+    margin-bottom: 0px;
+    /* opacity: 0.7; */
+}
+
+th {
+    font-size: 18px;
+}

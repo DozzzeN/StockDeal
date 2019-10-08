@@ -1,0 +1,33 @@
+body {
+
+}
+
+.navbar-header > a {
+    height: 55px;
+    color: #000000;
+}
+
+.navbar-header > a > p {
+    font-family: "黑体";
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.black {
+    background-color: #FFFFFF;
+}
+
+.information {
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.form {
+    margin-bottom: 5%;
+}
+
+.footer {
+
+}
